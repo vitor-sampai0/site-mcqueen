@@ -10,10 +10,10 @@
 }
 
 :root {
-  --bg-color: #080808; /* Define a cor de fundo do projeto */
-  --secondary-bg-color: #121212; /* Define a cor de fundo secundária do projeto */
-  --text-color: #e4e4e4; /* Define a cor do texto do projeto */
-  --main-color: #00ffee; /* Define a cor principal do projeto */
+  --bg-color: #ffffff; /* Define a cor de fundo do projeto */
+  --secondary-bg-color: #ffffff; /* Define a cor de fundo secundária do projeto */
+  --text-color: #ff0000; /* Define a cor do texto do projeto */
+  --main-color: #ff0000; /* Define a cor principal do projeto */
 }
 
 html {
@@ -113,22 +113,13 @@ span {
   line-height: 1; /* Define a altura da linha */
 }
 
-.home-img {
-  border-radius: 50%; /* Adiciona um raio nas bordas */
-}
 
 .home-img img {
   top: 3rem; /* Define a distância do topo */
-  width: 20vw; /* Define a largura do elemento equivalente a 32% da largura da tela */
-  border-radius: 50%; /* Adiciona um raio nas bordas */
-  box-shadow: 0 0 20px var(--main-color); /* Adiciona uma sombra */
-  cursor: pointer; /* Adiciona um cursor de ponteiro */
-  transition: 0.4s ease-in-out; /* Adiciona uma transição suave */
-}
+  width: 100%;
+  height: 100%; /* Define a largura do elemento equivalente a 32% da largura da tela */
 
-.home-img img:hover {
-  box-shadow: 0 0 20px var(--main-color), 0 0 40px var(--main-color),
-    0 0 60px var(--main-color); /* Adiciona uma sombra */
+
 }
 
 .home-content p {
